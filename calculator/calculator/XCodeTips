@@ -1,0 +1,198 @@
+cmd + r : run and start simulator
+cmd + 0 : left nav tab
+cmd + opt + 0 : right nav tab
+cmd + shift + y : debugger tab
+ctrl + i : indent all
+
+debugging:
+po = print object
+p = print
+
+More swift:
+1. Optional
+let s = String?
+if s != nil {
+    display.text = s
+} else {
+    display.text = " "
+}
+
+=
+
+display.text = s ?? " "
+
+2. Tuples
+let x: (String, Int, Double) = ("hello", 5, 0.85)
+let (word, number, value) = x
+print(word) // hello
+print(number) // 5
+print(value) // 0.85
+
+let x: (w: String, i: Int, d: Double) = ("hello", 5, 0.85)
+print(x.w) //hello
+print(x.i) // 5
+print(x.d) // 0.85
+
+func getSize() -> (weight: Double, heigh: Double) {return (250, 80)}
+let x = getSize()
+print(x.weight) // 250
+print(getSize().height) // 80
+
+3. Range
+struct Range<T> {
+    var stertIndex: T
+    var endIndex: T
+}
+
+Range<Int> // slice of the Array
+
+let array =["a", "b", "c", "d", "e"]
+let a = array[2...3] // c and d
+let b = array[2..<3] // only c
+
+NO:
+let e = "hello"[2..<4] - won't compile
+YES:
+let e = "hello"[start..<end] // possible if start and end specified
+// it's Range<String.Index>
+
+for i in 0..<20 {
+}
+=
+// in C: for (int i = 0; i < 20; i++)
+
+for i in stride(from: 0.5, through: 15.25, by: 0.3) {
+} //closed countable range
+
+4. Methods
+func foo(_ first: Int, secondExternal second: Int) {
+    ...
+}
+func bar() {
+    foo(5, secondExternal: 6)
+}
+
+5. Property Observers
+var someProp: Int = 42 {
+    willSet {newValue}
+    didSet {oldvalue}
+}
+
+6. Lazy Initialization
+lazy var brain = CalculatorBrain() //will be created when it's needed
+
+lazy var someProperty: Type = {
+    // construct the value of someProperty here
+    return <the constructed value>
+}()
+
+lazy var myProperty = self.initializeMyProperty()
+
+7. Array
+var a = Array<String>()
+var a = [String]() // same
+
+var animals = ["one", "two"]
+animals.append("three")
+let k = animals[3]
+
+for animal in animals {
+    do_smth()
+}
+
+filter(includeElement: (T) -> Bool) - [T] // func in array
+let bigNumbers = [2,3,44,4,444].filter({$0 > 20}) // bigNumbers = [44, 444]
+
+map(transform: (T) -> U) -> [U] // another func in array
+let stringified: [String] = [1, 2, 3].map {String($0)} // ["1", "2", "3"]
+// trailing closure syntax
+
+reduce(initial: U, combine: (U, T) -> U) -> U
+let sum: Int = [1,2,3].reduce(0) {$0 + $1}
+let sum = [1,2,3].reduce(0, +) // + is just a function that takes 2 args
+
+8. Dictionary
+var dict = Dictionary<Srting,Int>()
+var otherDict = [String:Int]()
+
+for (key, value) in dict {
+    print(\(key))
+}
+
+9. String
+- it's a struct
+- indexible, but index is not int
+
+let s: String = "hello"
+let firstIndex: String.Index = s.startIndex // not Int
+let firstChar: Character = s[firstIndex]
+let secondIndex: String.Index = s.index(after: firstIndex)
+let sub = s[firstIndex...secondIndex]
+
+for c: Character in s.characters { } // byte by byte
+let count = s.characters.count
+let firstSpace: String.Index = s.characters.index(of: " ")
+
+var g = "hello"
+g += " there"  // "hello there"
+if let firstSpace = g.characters.index(of: " ") {
+    g.insert(contentsOf: " you".characters, at firstSpace)
+}
+print(g) // "hello you there"
+
+10. Other Classes
+- NSObject - base class for all Objective-C classes
+- NSNumber - generic number-holding class
+- Date - struct, any date related stuff
+- Data - bag of bits, save/restore/transit...
+
+11. Initialization
+- in swift everything should be initialized
+- use = or lazy
+- free init() to all base classes
+- struct has no initializers, has default for all properties
+
+12. Any & AnyObject
+- any type, typeless type
+let unknown: Any = ...
+if let foo = unknown as? MyType {
+    ...
+}
+as? - casting
+
+let vc: UIViewController = CalculatorViewController()
+if let calcVC = vc as? CalculatorViewController {
+    calcVC.displayValue = 3.1415
+}
+
+13. UserDefaults
+lightweight and limited database, for property list
+func set(Any?, forKey: String)
+func object(forKey: String) -> Any?
+let defaults = UserDefaults.standard
+defaults.set(3.14, forKey: "pi")
+
+14. Assertions
+assert(() -> Bool, "message")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

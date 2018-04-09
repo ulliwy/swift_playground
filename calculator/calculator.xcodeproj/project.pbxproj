@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C497F3F2076A73B001C51D4 /* XCodeTips in Resources */ = {isa = PBXBuildFile; fileRef = 0C497F3E2076A73B001C51D4 /* XCodeTips */; };
 		0C4AAF7B20730126008D8972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4AAF7A20730126008D8972 /* AppDelegate.swift */; };
 		0C4AAF7D20730126008D8972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4AAF7C20730126008D8972 /* ViewController.swift */; };
 		0C4AAF8020730126008D8972 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C4AAF7E20730126008D8972 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C497F3E2076A73B001C51D4 /* XCodeTips */ = {isa = PBXFileReference; lastKnownFileType = text; path = XCodeTips; sourceTree = "<group>"; };
 		0C4AAF7720730126008D8972 /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C4AAF7A20730126008D8972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C4AAF7C20730126008D8972 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				0C4AAF8620730126008D8972 /* Info.plist */,
 				0C4AAF7E20730126008D8972 /* Main.storyboard */,
 				0C4AAF8F2074371B008D8972 /* CalculatorBrain.swift */,
+				0C497F3E2076A73B001C51D4 /* XCodeTips */,
 			);
 			path = calculator;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C4AAF8520730126008D8972 /* LaunchScreen.storyboard in Resources */,
+				0C497F3F2076A73B001C51D4 /* XCodeTips in Resources */,
 				0C4AAF8E207306D4008D8972 /* Default-568h@2x.png in Resources */,
 				0C4AAF8220730126008D8972 /* Assets.xcassets in Resources */,
 				0C4AAF8020730126008D8972 /* Main.storyboard in Resources */,
