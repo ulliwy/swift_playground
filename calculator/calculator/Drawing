@@ -1,0 +1,24 @@
+CGFloat - class for anyhting to do with UIView
+
+CGPoint - struct with CGFloats
+var point = CGPoint(x: 37.0, y: 33.0)
+
+CGSize - with height and width
+var size = CGSize(width: 100.0, height: 50.0)
+
+CGRect - rectangle
+struct CGRect {
+    var origin: CGPoint
+    var size: CGSize
+}
+
+Units are points
+How may pixels per points: var contentScaleFactor: CGFloat
+
+var bounds: CGRect // space's origin and size
+frame and center - for UIView positioning
+
+NEVER call draw(CGRect)
+setNeedsDisplay()
+setNeedsDisplay(_ rect: CGRect) - to set redraw
+

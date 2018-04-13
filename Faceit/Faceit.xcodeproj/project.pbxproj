@@ -7,33 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C497F3F2076A73B001C51D4 /* XCodeTips in Resources */ = {isa = PBXBuildFile; fileRef = 0C497F3E2076A73B001C51D4 /* XCodeTips */; };
-		0C497F41207C0DA2001C51D4 /* Drawing in Resources */ = {isa = PBXBuildFile; fileRef = 0C497F40207C0DA1001C51D4 /* Drawing */; };
-		0C4AAF7B20730126008D8972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4AAF7A20730126008D8972 /* AppDelegate.swift */; };
-		0C4AAF7D20730126008D8972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4AAF7C20730126008D8972 /* ViewController.swift */; };
-		0C4AAF8020730126008D8972 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C4AAF7E20730126008D8972 /* Main.storyboard */; };
-		0C4AAF8220730126008D8972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C4AAF8120730126008D8972 /* Assets.xcassets */; };
-		0C4AAF8520730126008D8972 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C4AAF8320730126008D8972 /* LaunchScreen.storyboard */; };
-		0C4AAF8E207306D4008D8972 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C4AAF8D207306D4008D8972 /* Default-568h@2x.png */; };
-		0C4AAF902074371B008D8972 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4AAF8F2074371B008D8972 /* CalculatorBrain.swift */; };
+		0C497F55207D7628001C51D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C497F54207D7628001C51D4 /* AppDelegate.swift */; };
+		0C497F57207D7628001C51D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C497F56207D7628001C51D4 /* ViewController.swift */; };
+		0C497F5A207D7628001C51D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C497F58207D7628001C51D4 /* Main.storyboard */; };
+		0C497F5C207D7628001C51D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C497F5B207D7628001C51D4 /* Assets.xcassets */; };
+		0C497F5F207D7628001C51D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C497F5D207D7628001C51D4 /* LaunchScreen.storyboard */; };
+		0C497F68207D7724001C51D4 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C497F67207D7724001C51D4 /* FaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0C497F3E2076A73B001C51D4 /* XCodeTips */ = {isa = PBXFileReference; lastKnownFileType = text; path = XCodeTips; sourceTree = "<group>"; };
-		0C497F40207C0DA1001C51D4 /* Drawing */ = {isa = PBXFileReference; lastKnownFileType = text; path = Drawing; sourceTree = "<group>"; };
-		0C4AAF7720730126008D8972 /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C4AAF7A20730126008D8972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0C4AAF7C20730126008D8972 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0C4AAF7F20730126008D8972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0C4AAF8120730126008D8972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0C4AAF8420730126008D8972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0C4AAF8620730126008D8972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C4AAF8D207306D4008D8972 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		0C4AAF8F2074371B008D8972 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+		0C497F51207D7628001C51D4 /* Faceit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Faceit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C497F54207D7628001C51D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0C497F56207D7628001C51D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0C497F59207D7628001C51D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C497F5B207D7628001C51D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C497F5E207D7628001C51D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C497F60207D7628001C51D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C497F67207D7724001C51D4 /* FaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0C4AAF7420730126008D8972 /* Frameworks */ = {
+		0C497F4E207D7628001C51D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,43 +37,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C4AAF6E20730125008D8972 = {
+		0C497F48207D7628001C51D4 = {
 			isa = PBXGroup;
 			children = (
-				0C4AAF8D207306D4008D8972 /* Default-568h@2x.png */,
-				0C4AAF7920730126008D8972 /* calculator */,
-				0C4AAF7820730126008D8972 /* Products */,
+				0C497F53207D7628001C51D4 /* Faceit */,
+				0C497F52207D7628001C51D4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0C4AAF7820730126008D8972 /* Products */ = {
+		0C497F52207D7628001C51D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0C4AAF7720730126008D8972 /* calculator.app */,
+				0C497F51207D7628001C51D4 /* Faceit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0C4AAF7920730126008D8972 /* calculator */ = {
+		0C497F53207D7628001C51D4 /* Faceit */ = {
 			isa = PBXGroup;
 			children = (
-				0C4AAF8C20730252008D8972 /* Supporting Files */,
-				0C4AAF7C20730126008D8972 /* ViewController.swift */,
-				0C4AAF8620730126008D8972 /* Info.plist */,
-				0C4AAF7E20730126008D8972 /* Main.storyboard */,
-				0C4AAF8F2074371B008D8972 /* CalculatorBrain.swift */,
-				0C497F3E2076A73B001C51D4 /* XCodeTips */,
-				0C497F40207C0DA1001C51D4 /* Drawing */,
+				0C497F66207D766D001C51D4 /* Supporting Files */,
+				0C497F56207D7628001C51D4 /* ViewController.swift */,
+				0C497F67207D7724001C51D4 /* FaceView.swift */,
+				0C497F60207D7628001C51D4 /* Info.plist */,
+				0C497F58207D7628001C51D4 /* Main.storyboard */,
 			);
-			path = calculator;
+			path = Faceit;
 			sourceTree = "<group>";
 		};
-		0C4AAF8C20730252008D8972 /* Supporting Files */ = {
+		0C497F66207D766D001C51D4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0C4AAF7A20730126008D8972 /* AppDelegate.swift */,
-				0C4AAF8120730126008D8972 /* Assets.xcassets */,
-				0C4AAF8320730126008D8972 /* LaunchScreen.storyboard */,
+				0C497F5B207D7628001C51D4 /* Assets.xcassets */,
+				0C497F5D207D7628001C51D4 /* LaunchScreen.storyboard */,
+				0C497F54207D7628001C51D4 /* AppDelegate.swift */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -87,40 +78,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0C4AAF7620730126008D8972 /* calculator */ = {
+		0C497F50207D7628001C51D4 /* Faceit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C4AAF8920730126008D8972 /* Build configuration list for PBXNativeTarget "calculator" */;
+			buildConfigurationList = 0C497F63207D7628001C51D4 /* Build configuration list for PBXNativeTarget "Faceit" */;
 			buildPhases = (
-				0C4AAF7320730126008D8972 /* Sources */,
-				0C4AAF7420730126008D8972 /* Frameworks */,
-				0C4AAF7520730126008D8972 /* Resources */,
+				0C497F4D207D7628001C51D4 /* Sources */,
+				0C497F4E207D7628001C51D4 /* Frameworks */,
+				0C497F4F207D7628001C51D4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = calculator;
-			productName = calculator;
-			productReference = 0C4AAF7720730126008D8972 /* calculator.app */;
+			name = Faceit;
+			productName = Faceit;
+			productReference = 0C497F51207D7628001C51D4 /* Faceit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0C4AAF6F20730125008D8972 /* Project object */ = {
+		0C497F49207D7628001C51D4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = IP;
 				TargetAttributes = {
-					0C4AAF7620730126008D8972 = {
+					0C497F50207D7628001C51D4 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 0C4AAF7220730125008D8972 /* Build configuration list for PBXProject "calculator" */;
+			buildConfigurationList = 0C497F4C207D7628001C51D4 /* Build configuration list for PBXProject "Faceit" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -128,58 +119,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 0C4AAF6E20730125008D8972;
-			productRefGroup = 0C4AAF7820730126008D8972 /* Products */;
+			mainGroup = 0C497F48207D7628001C51D4;
+			productRefGroup = 0C497F52207D7628001C51D4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0C4AAF7620730126008D8972 /* calculator */,
+				0C497F50207D7628001C51D4 /* Faceit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0C4AAF7520730126008D8972 /* Resources */ = {
+		0C497F4F207D7628001C51D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C4AAF8520730126008D8972 /* LaunchScreen.storyboard in Resources */,
-				0C497F3F2076A73B001C51D4 /* XCodeTips in Resources */,
-				0C4AAF8E207306D4008D8972 /* Default-568h@2x.png in Resources */,
-				0C497F41207C0DA2001C51D4 /* Drawing in Resources */,
-				0C4AAF8220730126008D8972 /* Assets.xcassets in Resources */,
-				0C4AAF8020730126008D8972 /* Main.storyboard in Resources */,
+				0C497F5F207D7628001C51D4 /* LaunchScreen.storyboard in Resources */,
+				0C497F5C207D7628001C51D4 /* Assets.xcassets in Resources */,
+				0C497F5A207D7628001C51D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0C4AAF7320730126008D8972 /* Sources */ = {
+		0C497F4D207D7628001C51D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C4AAF902074371B008D8972 /* CalculatorBrain.swift in Sources */,
-				0C4AAF7D20730126008D8972 /* ViewController.swift in Sources */,
-				0C4AAF7B20730126008D8972 /* AppDelegate.swift in Sources */,
+				0C497F57207D7628001C51D4 /* ViewController.swift in Sources */,
+				0C497F55207D7628001C51D4 /* AppDelegate.swift in Sources */,
+				0C497F68207D7724001C51D4 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0C4AAF7E20730126008D8972 /* Main.storyboard */ = {
+		0C497F58207D7628001C51D4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0C4AAF7F20730126008D8972 /* Base */,
+				0C497F59207D7628001C51D4 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		0C4AAF8320730126008D8972 /* LaunchScreen.storyboard */ = {
+		0C497F5D207D7628001C51D4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0C4AAF8420730126008D8972 /* Base */,
+				0C497F5E207D7628001C51D4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -187,7 +175,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0C4AAF8720730126008D8972 /* Debug */ = {
+		0C497F61207D7628001C51D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,7 +232,7 @@
 			};
 			name = Debug;
 		};
-		0C4AAF8820730126008D8972 /* Release */ = {
+		0C497F62207D7628001C51D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -294,30 +282,30 @@
 			};
 			name = Release;
 		};
-		0C4AAF8A20730126008D8972 /* Debug */ = {
+		0C497F64207D7628001C51D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YW7J52UB2F;
-				INFOPLIST_FILE = calculator/Info.plist;
+				INFOPLIST_FILE = Faceit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ulliwy.calculator;
+				PRODUCT_BUNDLE_IDENTIFIER = ulliwy.Faceit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		0C4AAF8B20730126008D8972 /* Release */ = {
+		0C497F65207D7628001C51D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YW7J52UB2F;
-				INFOPLIST_FILE = calculator/Info.plist;
+				INFOPLIST_FILE = Faceit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ulliwy.calculator;
+				PRODUCT_BUNDLE_IDENTIFIER = ulliwy.Faceit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -327,25 +315,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0C4AAF7220730125008D8972 /* Build configuration list for PBXProject "calculator" */ = {
+		0C497F4C207D7628001C51D4 /* Build configuration list for PBXProject "Faceit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0C4AAF8720730126008D8972 /* Debug */,
-				0C4AAF8820730126008D8972 /* Release */,
+				0C497F61207D7628001C51D4 /* Debug */,
+				0C497F62207D7628001C51D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C4AAF8920730126008D8972 /* Build configuration list for PBXNativeTarget "calculator" */ = {
+		0C497F63207D7628001C51D4 /* Build configuration list for PBXNativeTarget "Faceit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0C4AAF8A20730126008D8972 /* Debug */,
-				0C4AAF8B20730126008D8972 /* Release */,
+				0C497F64207D7628001C51D4 /* Debug */,
+				0C497F65207D7628001C51D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0C4AAF6F20730125008D8972 /* Project object */;
+	rootObject = 0C497F49207D7628001C51D4 /* Project object */;
 }
